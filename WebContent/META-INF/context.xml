@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Context>
+	<Resource
+		name="jdbc/portal"
+		auth="Container"
+		type="javax.sql.DataSource" username="root" password=""
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost/portal?useUnicode=true&amp;characterEncoding=UTF-8" maxActive="50" maxWait="5000" maxIdle="2"
+		validationQuery="SELECT count(*) FROM user" />
+
+</Context>

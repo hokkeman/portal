@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+
+h1.title {
+	background: #575fcf; /*背景色*/
+	padding: 0.5em;/*文字周りの余白*/
+	color: white;/*文字を白に*/
+	border-radius: 0.5em;/*角の丸み*/
+}
+.rightMargin{
+	margin-right: 500px;
+}
+
+h1.adtitle {
+	background: #333333; /*背景色*/
+	padding: 0.5em;/*文字周りの余白*/
+	color: white;/*文字を白に*/
+	border-radius: 0.5em;/*角の丸み*/
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    margin: 0 auto;
+    padding: 0;
+}
+.modal{
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.modal__bg{
+    background: rgba(0,0,0,0.8);
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+.modal__content{
+    background: #fff;
+    left: 50%;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+}
